@@ -1,0 +1,15 @@
+# PHP
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "rootpassw"
+mysql_db: "wptest"
+mysql_user: "janis@172.30.1.5"
+mysql_password: "passw123"
+msql_remote_host_ip: 172.30.1.5
+mysql_port: 3306
+
+#HTTP Settings
+http_host: "wpserver"
+http_conf: "wpserver.conf"
+http_port: "80"
